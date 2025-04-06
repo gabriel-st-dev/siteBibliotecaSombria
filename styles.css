@@ -303,12 +303,18 @@ footer p{
 @media(max-width:576px){
 
     .main-banner{
-        padding: 15rem 0;
+        padding: 13rem 0;
     }
 
     .navbar-items li{
         font-size: 12px;
         margin-left: 10px;
+    }
+
+    .logo{
+        width: 30px;
+        position: absolute;
+        top: 10px;
     }
 
     .services-container ul{
@@ -338,22 +344,12 @@ footer p{
         margin: 10px 0;
     }
 }
+
 /* celulares de no max 350px */
 @media(max-width:380px){
 
-    .logo{
-        width: 30px;
-        position: absolute;
-        top: 10px;
-        
-    }
-    .navbar-items li{
-        font-size:12px ;
-        
-    }
-
     .main-banner{
-        padding: 13rem 0;
+        padding: 12rem 0;
     }
 
 }
